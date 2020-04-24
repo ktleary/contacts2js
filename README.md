@@ -4,7 +4,7 @@
 
 Convert CSV formatted contacts\* to an array of Contact with schema.org properties
 
-\*currently supports Google Format format
+\*currently supports Google Contact CSV format
 
 #### Installation
 
@@ -12,7 +12,7 @@ Convert CSV formatted contacts\* to an array of Contact with schema.org properti
 
 or
 
-- npm install git+https://github.com/ktleary/contacts2js.git
+- npm install `git+https://github.com/ktleary/contacts2js.git`
 
 #### Usage
 
