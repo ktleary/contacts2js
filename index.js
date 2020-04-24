@@ -11,9 +11,9 @@ function getRecords(csvdata) {
   });
 }
 
-function csvContactsToJs(csvContacts = '') {
+function contacts2js(csvContacts = '') {
   const records = getRecords(csvContacts);
   return records.map((record) => new Contact(record, HEADINGS));
 }
 
-module.exports = csvContactsToJs;
+module.exports = contacts2js;

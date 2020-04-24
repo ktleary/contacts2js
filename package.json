@@ -1,21 +1,16 @@
 {
-	"name": "csvContactsToJs",
+	"name": "contacts2js",
 	"version": "0.0.1",
-	"description": "csvContactsToJs: Convert CSV formatted contacts to an array of Contact with schema.org properties",
+	"description": "contacts2js: Convert CSV formatted contacts to an array of Contact with schema.org properties",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "csvContactsToJs"
+		"url": "https://github.com/ktleary/contacts2js"
 	},
-	"keywords": [
-		"contacts",
-		"js",
-		"csv",
-		"csvContactsToJs"
-	],
+	"keywords": ["contacts", "js", "csv", "contacts2js"],
 	"author": "ktleary",
 	"license": "ISC",
 	"dependencies": {
