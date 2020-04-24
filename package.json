@@ -1,6 +1,6 @@
 {
 	"name": "contacts2js",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "contacts2js: Convert CSV formatted contacts to an array of Contact with schema.org properties",
 	"main": "index.js",
 	"scripts": {
@@ -10,7 +10,12 @@
 		"type": "git",
 		"url": "git+https://github.com/ktleary/contacts2js.git"
 	},
-	"keywords": ["contacts", "js", "csv", "contacts2js"],
+	"keywords": [
+		"contacts",
+		"js",
+		"csv",
+		"contacts2js"
+	],
 	"author": "ktleary",
 	"license": "ISC",
 	"dependencies": {
