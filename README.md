@@ -1,23 +1,19 @@
 ### contacts2js
 
-**alpha software**
-
-Convert CSV formatted contacts\* to an array of Contact with schema.org properties
-
-\*currently supports Google Contact CSV format
+Convert CSV formatted Google contacts to an array of Contact with schema.org properties
 
 #### Installation
 
-- npm install contacts2js
+-   npm install contacts2js
 
 or
 
-- npm install `git+https://github.com/ktleary/contacts2js.git`
+-   npm install `git+https://github.com/ktleary/contacts2js.git`
 
 #### Usage
 
-- pass in a Google contacts csv
-- returns an array of Contacts
+-   pass in a Google contacts csv
+-   returns an array of Contacts
 
 #### Configuration
 
