@@ -1,4 +1,4 @@
-### contacts2js
+### contacts2js [![Build Status](https://travis-ci.org/ktleary/contacts2js.svg?branch=master)](https://travis-ci.org/ktleary/contacts2js)
 
 ![](cards.jpg)
 
