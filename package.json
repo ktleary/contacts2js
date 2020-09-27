@@ -1,7 +1,7 @@
 {
   "name": "contacts2js",
   "description": "contacts2js: Convert CSV formatted contacts to an array of Contact with schema.org properties",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "ktleary",
   "dependencies": {
     "csv-parse": "^4.12.0"
