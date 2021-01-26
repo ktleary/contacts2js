@@ -5,7 +5,8 @@
   "author": "ktleary",
   "bugs": "github.com:ktleary/contacts2js/issues",
   "dependencies": {
-    "csv-parse": "^4.15.0"
+    "csv-parse": "^4.15.0",
+    "csv-parser": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^3.15.0",
