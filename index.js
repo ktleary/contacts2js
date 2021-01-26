@@ -1,7 +1,5 @@
-'use strict';
-
-const parse = require('csv-parse/lib/sync');
-const { HEADINGS, Contact } = require('./lib/Contact');
+const parse = require("csv-parse/lib/sync");
+const { HEADINGS, Contact } = require("./lib/Contact");
 
 function getRecords(csvdata) {
   if (!csvdata) return [];
@@ -11,9 +9,10 @@ function getRecords(csvdata) {
   });
 }
 
-function contacts2js(csvContacts = '') {
+function contacts2js(csvContacts = "") {
   const records = getRecords(csvContacts);
   return records.map((record) => new Contact(record, HEADINGS));
 }
 
+/* eslint-disable fp/no-mutation */
 module.exports = contacts2js;
