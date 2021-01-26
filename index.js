@@ -9,6 +9,7 @@ function getRecords(csvdata) {
   });
 }
 
+// contacts2js :: string -> [Contact]
 function contacts2js(csvContacts = "") {
   const records = getRecords(csvContacts);
   return records.map((record) => createContact(record, HEADINGS));
