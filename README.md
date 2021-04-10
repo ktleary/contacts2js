@@ -1,5 +1,7 @@
 # contacts2js
 
+[![builds.sr.ht status](https://builds.sr.ht/~djlooop/contacts2js.svg)](https://builds.sr.ht/~djlooop/contacts2js?)
+
 > Convert CSV formatted Google contacts to an array of Contact with schema.org properties
 
 ## Configuration
