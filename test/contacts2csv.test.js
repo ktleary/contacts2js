@@ -1,9 +1,14 @@
 /* eslint-disable */
-const test = require("ava");
-const fs = require("fs");
-const path = require("path");
-const contacts2js = require("../index");
+// const test = require("ava");
+import test from "ava";
+// const fs = require("fs");
+import fs from "fs";
+// const path = require("path");
+import path from "path";
+// const contacts2js = require("../index");
+import contacts2js from "../index.js";
 const contactspath = "./test/test-contacts.csv";
+// const contactspath = path.join(__dirname, "test-contacts.csv");
 
 const getFile = (filepath) => fs.readFileSync(filepath, { encoding: "utf-8" });
 

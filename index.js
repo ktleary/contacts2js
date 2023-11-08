@@ -1,16 +1,16 @@
-const parse = require("csv-parse/lib/sync");
-const { HEADINGS, createContact } = require("./lib/Contact");
+import { parse } from "csv-parse/sync";
+import { HEADINGS, createContact } from "./lib/Contact.js";
 
 const getRecords = (csvdata) => {
+  if (!csvdata) return [];
+
   try {
-    return csvdata
-      ? parse(csvdata, {
-          columns: true,
-          skip_empty_lines: true,
-        })
-      : [];
+    return parse(csvdata, {
+      columns: true,
+      skip_empty_lines: true,
+    });
   } catch (err) {
-    console.error(`Failed to parse CSV data: ${err}`);
+    console.error(`Failed to parse CSV data: ${err.message}`);
     return [];
   }
 };
@@ -18,5 +18,4 @@ const getRecords = (csvdata) => {
 const contacts2js = (csvContacts) =>
   getRecords(csvContacts).map((record) => createContact(record, HEADINGS));
 
-/* eslint-disable fp/no-mutation */
-module.exports = contacts2js;
+export default contacts2js;
